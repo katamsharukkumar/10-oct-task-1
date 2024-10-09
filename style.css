@@ -1,0 +1,49 @@
+* {
+  font-family: "karma",serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box ;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.menu {
+ width: 30px;
+}
+.mail,.myfood {
+  font-size: 24px;
+}
+
+.main {
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: repeat(2,1fr);
+width: 1200px;
+row-gap: 40px;
+column-gap: 10px;
+margin-left: 10%;
+margin-top: 30px;
+}
+img {
+  width: 100%;
+}
+h3 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+  margin: 10px 0px;
+}
+p {
+  font-size: 15px;
+  text-align: center;
+}
+.text {
+  padding: 5px;
+}
+.wspace {
+  margin: 15px;
+}
