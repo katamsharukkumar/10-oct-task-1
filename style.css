@@ -8,11 +8,19 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
+ 
 }
 
 .menu {
- width: 30px;
+ padding: 5px;
+ transition: all 0.4s;
+}
+.menu-icon {
+  width: 40px;
+}
+
+.menu:hover {
+  background-color: dimgrey; 
 }
 .mail,.myfood {
   font-size: 24px;
